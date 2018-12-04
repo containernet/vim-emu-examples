@@ -10,11 +10,11 @@ TODO
 
 Older examples for vim-emu a spread over many different (and unfortunately outdated) project repositories. This makes it hard to get started with vim-emu. This project tries to change this.
 
+---
+
 ## Examples
 
 All the examples in this repository are placed in different folders to categorize them and keep all the required files to run them, for example the involved VNF descriptors. In addition, there is a [vnfs/](vnfs/) folder that contains Dockerfiles to build all the VNFs used in the various examples. At the end, you only need to clone this repository and [install vim-emu](https://osm.etsi.org/wikipub/index.php/VIM_emulator#Manual_installation_.28vim-emu_only.29) (using *Option 1: Bare-metal installation without OSM*) and you are ready to go. Each example is documented and explained using the README.md file in the root of its folder.
-
----
 
 ### Running examples
 
