@@ -6,6 +6,12 @@ A collection of up-to-date examples for [vim-emu](https://osm.etsi.org/wikipub/i
 
 TODO
 
+### Cite us
+
+* TODO MeDICINE'16
+
+* TODO EuCNC'18
+
 ## Why this repository?
 
 Older examples for vim-emu a spread over many different (and unfortunately outdated) project repositories. This makes it hard to get started with vim-emu. This project tries to change this.
@@ -14,9 +20,15 @@ Older examples for vim-emu a spread over many different (and unfortunately outda
 
 ## Examples
 
-All the examples in this repository are placed in different folders to categorize them and keep all the required files to run them, for example the involved VNF descriptors. In addition, there is a [vnfs/](vnfs/) folder that contains Dockerfiles to build all the VNFs used in the various examples. At the end, you only need to clone this repository and [install vim-emu](https://osm.etsi.org/wikipub/index.php/VIM_emulator#Manual_installation_.28vim-emu_only.29) (using *Option 1: Bare-metal installation without OSM*) and you are ready to go. Each example is documented and explained using the README.md file in the root of its folder.
+All the examples in this repository are placed in different folders to categorize them and keep all the required files to run them, for example the involved VNF descriptors. In addition, there is a [vnfs/](vnfs/) folder that contains Dockerfiles to build all the VNFs used in the various examples. You should pull or build all these VNFs before continuing with the examples (see [vnfs/README.md](vnfs/)). At the end, you only need to clone this repository and [install vim-emu](https://osm.etsi.org/wikipub/index.php/VIM_emulator#Manual_installation_.28vim-emu_only.29) (using *Option 1: Bare-metal installation without OSM*) and you are ready to go. Each example is documented and explained using the README.md file in the root of its folder.
 
-### Running examples
+### Preparations
+
+1. clone this repository
+1. [install vim-emu](https://osm.etsi.org/wikipub/index.php/VIM_emulator#Manual_installation_.28vim-emu_only.29) (using *Option 1: Bare-metal installation without OSM*)
+1. [pull or build all example VNFs](/vnfs)
+
+### Available examples
 
 #### vim-emu command line examples
 
@@ -37,7 +49,7 @@ These examples make use of the 5GTANGO *lightweight lifecycle manager* included 
 
 ### Planned examples
 
-* [ ] further OSM examles
+* [ ] further OSM examples
 
 ---
 
